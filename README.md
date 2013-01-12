@@ -17,7 +17,9 @@ version installed simultaneously.
 
 The simplest way is to install the repository using `brew tap`.
 
-    $ brew tap ndimiduk/homebrew-hbase-versions
+    $ brew tap ndimiduk/homebrew-hbase
+    ...
+    Tapped 3 formula
 
 This repository will now be available in your list and you can install
 the recipes directly. For example,
@@ -26,7 +28,7 @@ the recipes directly. For example,
 
 Alternately, you can install a recipe directly from a file or via URL:
 
-    $ brew install https://raw.github.com/ndimiduk/homebrew-hbase-versions/master/hbase-0.94.rb
+    $ brew install https://raw.github.com/ndimiduk/homebrew-hbase/master/hbase-0.94.rb
 
 You can do this for each version of HBase you're interested in. Each
 installed version gets its own installation directory.
